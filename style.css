@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC:wght@300;400;700&family=Noto+Sans+TC:wght@100..900&display=swap');
+/*預留空白5*/
+*{
+   padding: 5px;
+   margin: 5px;
+}
 body     {
     color:#585934 ;
     background-color:#A9AEB5;
@@ -10,7 +15,45 @@ body     {
 header,footer{
     background-color:#C9D2B1;
     color:#1F479C ;
+border-top:#41403D 1px solid; ;
+border-left:#41403D 1px solid; ;
+border-bottom:#41403D 5px solid; ;
+border-right: #41403D 6px solid;;
+border-radius:15px ;
+height: 101px;
 }
+
+header  ul{
+position:absolute ;
+top:25px ;
+right: 15px;
+line-height: 100px;
+}
+
+header  h1{
+    position:absolute ;
+    top: 25px ;
+    left: 15px;
+    line-height: 100px;
+    background-image: url(images/logo.png);
+    background-size: 100px 100px;
+    background-position: center;
+    background-repeat:no-repeat ;
+    width: 100px;
+    height: 100px;
+    text-indent: 103%;
+    white-space:nowrap;
+ }
+ header H2{
+    position: absolute;
+    top: 100px;
+    left: 170px;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+
+ }
+
 header a{
     color:#41403D ;
     text-decoration: none ;
