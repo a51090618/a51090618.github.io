@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>綠崗早午餐 (GreenHill Brunch)</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.0/dist/css/uikit.min.css">
+</head>
+<body>
+
+<header class="uk-background-muted uk-padding-small" uk-sticky="offset: 0;">
+    <div class="uk-container">
+        <div class="uk-flex uk-flex-middle uk-flex-between">
+            <!-- Logo Section -->
+            <div class="uk-flex uk-flex-middle">
+                <img src="photo/p.jpg" alt="綠崗早午餐 Logo" width="80" height="80" class="uk-margin-right uk-border-circle">
+                <div>
+                    <h1 class="uk-margin-remove">綠崗早午餐</h1>
+                    <h2 class="uk-margin-remove uk-text-meta">GreenHill Brunch</h2>
+                </div>
+            </div>
+            
+            <!-- Menu Section -->
+            <nav>
+                <ul class="uk-navbar-nav uk-visible@s">
+                    <li><a href="index.html">首頁</a></li>
+                    <li><a href="regarding.html">關於我們</a></li>
+                    <li><a href="products.html">產品</a></li>
+                    <li><a href="ab.html">聯絡我們</a></li>
+                    <li><a href="backup/index2.html">舊網站</a></li>
+                </ul>
+                <div class="uk-hidden@s">
+                    <button class="uk-button uk-button-default" type="button" uk-toggle="target: #offcanvas-nav">選單</button>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<!-- Offcanvas Menu for Small Screens -->
+<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <ul class="uk-nav uk-nav-default">
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="regarding.html">關於我們</a></li>
+            <li><a href="products.html">產品</a></li>
+            <li><a href="ct.html">聯絡我們</a></li>
+            <li><a href="backup/index2.html">舊網站</a></li>
+
+        </ul>
+    </div>
+</div>
+
+
+!--聯絡資訊-->
+    <section class="uk-section uk-section-default">
+        <div class="uk-container">
+            <h2 class="uk-heading-line uk-text-center"><span>綠崗聯絡資訊</span></h2>
+            <p class="uk-text-center">隨時歡迎您的蒞臨與洽詢：</p>
+            <div class="uk-flex-middle" uk-grid>
+                <div class="uk-width-2-3@m">
+                    <ul class="uk-list">
+                        <li><span uk-icon="location"></span> 地址：彰化市介壽北1號</li>
+                        <li><span uk-icon="receiver"></span> 電話：04-7111111</li>
+                        <li><span uk-icon="mail"></span> Email：greenhill@gmail.com</li>
+                        <li> <span uk-icon="user"></span> 店長：Albert</li>
+                    </ul>
+                    <p>無論是朋友聚餐、早晨小憩，還是任何建議或合作邀約，請隨時與我們聯繫！我們期待為您帶來一場美味且溫馨的用餐體驗！</p>
+                </div>
+                <div class="uk-width-1-3@m uk-flex-first">
+                    <img src="photo/ceo.jpg" width="1800" height="1200" alt="Image" class="uk-border-circle">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="uk-section uk-section-default">
+        <h2 class="uk-heading-line uk-text-center"><span>綠崗地圖</span></h2>
+        <div class="uk-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.0075582236186!2d120.5478983751255!3d24.066038378456348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3469388ad943d211%3A0xd686c30658926777!2zNTAw5b2w5YyW57ij5b2w5YyW5biC5LuL5aO95YyX6LevMeiZnw!5e0!3m2!1szh-TW!2stw!4v1735148195389!5m2!1szh-TW!2stw" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+
+    <!-- 頁尾區段 -->
+    <footer class="uk-section uk-section-secondary uk-light">
+        <div class="uk-container">
+            <div class="uk-grid-match uk-child-width-1-4@l uk-child-width-1-3@m uk-child-width-1-2@s" uk-grid>
+                <!-- 第一欄：網站資訊 -->
+                <div>
+                    <h4 class="uk-text-bold">關於我們</h4>
+                    <p>迅速的餐點製作與送餐效率，讓您可以更悠閒地享受碳烤的美味。</p>
+                </div>
+                <!-- 第二欄：聯絡方式 -->
+                <div>
+                    <h4 class="uk-text-bold">聯絡方式</h4>
+                    <ul class="uk-list">
+                        <li><span uk-icon="location"></span> 彰化市介壽北1號</li>
+                        <li><span uk-icon="receiver"></span> 04-7111111</li>
+                        <li><span uk-icon="mail"></span> greenhill@gmail.com</li>
+                    </ul>
+                </div>
+                <!-- 第三欄：快速連結 -->
+                <div>
+                    <h4 class="uk-text-bold">快速連結</h4>
+                    <ul class="uk-list">
+                        <li><a href="index.html">首頁</a></li>
+                        <li><a href="ab.html">關於我們</a></li>
+                        <li><a href="product.html">產品列表</a></li>
+                        <li><a href="regarding.html">聯絡我們</a></li>
+                    </ul>
+                </div>
+                <!-- 第四欄：社群媒體 -->
+                <div>
+                    <h4 class="uk-text-bold">追蹤我們</h4>
+                    <div class="uk-flex uk-flex-middle">
+                        <a href="https://www.facebook.com/profile.php?id=100000206846905&locale=zh_TW" class="uk-icon-button uk-margin-small-right" uk-icon="facebook"></a>
+                        <a href="https://x.com/wimsckit" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+                        <a href="https://www.instagram.com/wimsckit/" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"></a>
+                        <a href="https://www.youtube.com/@wimsckit" class="uk-icon-button uk-margin-small-right" uk-icon="youtube"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>
